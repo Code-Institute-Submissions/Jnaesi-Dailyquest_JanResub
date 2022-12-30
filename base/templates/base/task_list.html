@@ -6,7 +6,7 @@
 {% endif %}
 
 <hr>
-<h1> My Daily Quests:</h1>
+<h1>Hello {{request.user|title}}</h1>
 <a href="{% url 'task-create' %}">Add Task</a>
 
 <table>

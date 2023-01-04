@@ -45,6 +45,11 @@
             box-shadow: 2px 2px 13px -4px rgba(0, 0, 0, 0.21);
         }
 
+        input {
+            outline: none;
+            border: none;
+        }
+
         .header-bar {
             display: flex;
             justify-content: space-between;
@@ -115,6 +120,12 @@
             align-items: center;
             padding: 20px;
         }
+
+        @media screen and (max-width:320px) {
+            #search-add-wrapper {
+                padding: 10px;
+            }
+        }
         
         input[type=text],
         input[type=password],
@@ -140,6 +151,10 @@
             border-radius: 5px;
             cursor: pointer;
             text-decoration: none;
+        }
+
+        .card-body {
+            padding: 20px;
         }
 
     </style>

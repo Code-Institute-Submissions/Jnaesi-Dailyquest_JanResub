@@ -1,1 +1,1 @@
-web: gunicorn dailyquests.wsgi
+web: gunicorn daily_quest.wsgi

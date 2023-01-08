@@ -37,17 +37,17 @@ The site provides role based permissions for users to interact with a central da
 
 #### User Story
 
-1. As a User, I want to invite my friends, so we can enjoy this service together.
+1. As a User, I want to invite my friends, so we can enjoy this to do list app.
 2. As a User, I want to organize my work, so I can feel more in control. 
 4. As a User, I want to be able to understand my progress with my tasks. 
 5. As a User, I want to be able to keep notes of my paid bills for the month. 
 6. As a User, I want to show my wife of what i have left to do in the household before the weekend.
-7. 
-8. 
-9. 
-10. 
+7. As a User, I want to be able to see what quests i have in my game to do before the weekly reset.
+8. As a User, I want a reminder on how many tasks i have in a week or day.
+9. As a User, I want to keep track of my studies.
+10. As a User, I want to keep track of my movies that i have to watch.
 
-#### Improvements And Features For The Future
+#### Improvements
 
 * Assist With Goal Setting
 When users first enter your app or access a productivity feature, the first step they’ll need to take is to determine what they want to achieve. Otherwise, there won’t be anything specific to track.
@@ -81,7 +81,8 @@ The best productivity apps won’t simply encourage people to reach the goals th
 #### The Skeleton Plane
 I used Adobe Photoshop to produce wireframes of how the site would look across different devices.
 
-<img src="media/images/deployment/placeholder.jpg" alt="drawing" width="800" height="600"/>
+<img src="media/images/deployment/MOCKUP_1.png" alt="drawing" width="600" height="400"/>
+<img src="media/images/deployment/MOCKUP_2.png" alt="drawing" width="600" height="400"/>
 
 
 # Features
@@ -91,27 +92,9 @@ The site is designed with a central layout that the HTML inserts the relevant CS
 * Future Features
 There will be an form added where you can order food that has different delivery options.
 
-#### Main Page
-<img src = 'media/images/deployment/placeholder.jpg' alt = "Homepage of the website" width=400> </img>
-
-#### Add Category Page
-<img src = 'media/images/deployment/placeholder.jpg' alt = "Second part" width=400> </img>
-
-#### Add Post Page
-<img src = 'media/images/deployment/placeholder.jpg' alt = "form" width=400> </img>
-
-#### Comment Page
-
-<img src = 'media/images/deployment/placeholder.jpg' alt = "form2" width=400> </img>
-
-#### Edit Profile Page
-
-<img src = 'media/images/deployment/placeholder.jpg' alt = "form2" width=400> </img>
-
-#### Update Post Page
-
-<img src = 'media/images/deployment/placeholder.jpg' alt = "form2" width=400> </img>
-
+#### Preview
+<img src = 'media/images/deployment/LOGIN_SCREEN.png' alt = "Homepage of the website" width=400> </img>
+<img src = 'media/images/deployment/TASKS_SCREEN.png' alt = "Second part" width=400> </img>
 
 #### Validator Testing
 * HTML
@@ -162,7 +145,7 @@ There will be an form added where you can order food that has different delivery
 
 ### Deployment
 
-The site was deployed via Heroku, and the live link can be found here - [DailyQuests](https://dailyquests.herokuapp.com/)
+The site was deployed via Heroku, and the live link can be found here - [DailyQuest](https://dailyquests.herokuapp.com/)
 
 ### Project Deployment
 

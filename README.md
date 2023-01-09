@@ -4,9 +4,9 @@ Dailyquest is a website built in Django using Python, CSS and HTML. It enables u
 
 This is the fifth project for the Code Institute Diploma in Software Development.
 
-The site provides role based permissions for users to interact with a central dataset. It includes user authentication, and Full CRUD functionality for Create Tasks, Delete Task,Update Task and User Profiles.
+The site provides role based permissions for users to interact with a central dataset. It includes user authentication, and Full CRUD functionality for Create Tasks, Delete Task, Update Task and Create User Profiles.
 
-<img src = 'media/images/deployment/placeholder.jpg' alt = "Homepage of the website"> </img>
+<img src = 'media/images/deployment/dailyquest_final.jpg' alt = "Homepage of the website"> </img>
 
 ## Table of Contents
 ## Table of Contents
@@ -33,7 +33,7 @@ The site provides role based permissions for users to interact with a central da
 
 #### Site Goals
 
-* To provide users with a place to manage their daily quests!
+* To provide users with a good looking but very simple webpage to manage their daily quests!
 
 #### User Story
 
@@ -98,21 +98,22 @@ There will be an form added where you can order food that has different delivery
 
 #### Validator Testing
 * HTML
-  * Document checking completed. No errors or warnings to show.
+    * Main.html > Document checking completed. No errors or warnings to show.
+    * This is mostly where all CSS and HTML is inherited from.
 
 * Lighthouse 
-  * The lighthouse report gave a great score of *****
+  * The lighthouse report gave a great score of 99
   
-  <img src="media/images/deployment/placeholder.jpg" alt="Refresh" width="500"/>
+  <img src="media/images/deployment/DailyquestsLighthouse.png" alt="Refresh" width="500"/>
 
 * Python
   * There was no issues with python code.
 
-  Checked all python files with 100% pass rate while testing them individually on https://www.pythonchecker.com/ aswell.
+  Checked all python files while testing them individually on https://www.pythonchecker.com/
   
-  <img src="media/images/deployment/placeholder.jpg" alt="Refresh" width="500"/>
 #### Notable Bugs
 
+Have not found any yet.
 ## Credits
 
 1. codeinsitute.com

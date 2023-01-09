@@ -107,9 +107,41 @@ There will be an form added where you can order food that has different delivery
   <img src="media/images/deployment/DailyquestsLighthouse.png" alt="Refresh" width="500"/>
 
 * Python
-  * There was no issues with python code.
-
+  There was no issues with python code.
   Checked all python files while testing them individually on https://www.pythonchecker.com/
+
+    #### Pythonchecker:
+    * settings.py 
+      100%,
+      Guido,
+      Lines: 145,
+      Hints: 0,
+
+    * views.py
+      99%,
+      Master,
+      Lines: 89,
+      Hints: 1,
+
+    * urls.py
+      53%,
+      Solid,
+      Lines: 15,
+      Hints: 7,
+      Majority hints are "Put whitespaces around operators" but it is url paths.
+
+    * models.py
+      100%,
+      Guido,
+      Lines: 18,
+      Hints: 0,
+
+    * admin.py
+      100%,
+      Guido,
+      Lines: 5,
+      Hints: 0,
+
   
 #### Notable Bugs
 

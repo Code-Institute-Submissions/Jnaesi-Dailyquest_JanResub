@@ -37,12 +37,12 @@ The site provides role based permissions for users to interact with a central da
 
 #### User Story
 
-1. As a User, I want to invite my friends, so we can enjoy this to do list app.
+1. As a User, I want to motivate my self by visually be able to see what tasks are completed.
 2. As a User, I want to organize my work, so I can feel more in control. 
 4. As a User, I want to be able to understand my progress with my tasks. 
-5. As a User, I want to be able to keep notes of my paid bills for the month. 
-6. As a User, I want to show my wife of what i have left to do in the household before the weekend.
-7. As a User, I want to be able to see what quests i have in my game to do before the weekly reset.
+5. As a User, I want to be able to login to my profile and keep notes.
+6. As a User, I want to be able to remove all my tasks that i have completed.
+7. As a User, I want to be able update the content of my weekly and daily tasks.
 8. As a User, I want a reminder on how many tasks i have in a week or day.
 9. As a User, I want to keep track of my studies.
 10. As a User, I want to keep track of my movies that i have to watch.
@@ -79,7 +79,7 @@ The best productivity apps won’t simply encourage people to reach the goals th
 * Users need to be registered and logged in to add a task
 * Responsive Design - the site needs to be fully responsive to cover the wide variety of devices users may use to access the site
 #### The Skeleton Plane
-I used Adobe Photoshop to produce wireframes of how the site would look across different devices.
+I used Mockflow to produce wireframes of how the site would look.
 
 <img src="media/images/deployment/MOCKUP_1.png" alt="drawing" width="600" height="400"/>
 <img src="media/images/deployment/MOCKUP_2.png" alt="drawing" width="600" height="400"/>
@@ -122,13 +122,6 @@ There will be an form added where you can order food that has different delivery
       Master,
       Lines: 89,
       Hints: 1,
-
-    * urls.py
-      53%,
-      Solid,
-      Lines: 15,
-      Hints: 7,
-      Majority hints are "Put whitespaces around operators" but it is url paths.
 
     * models.py
       100%,

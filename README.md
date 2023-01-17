@@ -71,10 +71,8 @@ The best productivity apps won’t simply encourage people to reach the goals th
 
 **Features planned:**
 
-* User Profile - Create, Read, Update and Delete
-* Posts - Users can create, read, update and delete their own Posts
-* Other Users Posts - Users can read, like, and comment
-* Profiles - Users can read other users profiles
+* User Profile - Create, Read, Update and Delete.
+* Posts - Users can create, read, update and delete their own tasks.
 * Users can logout of their account
 * Users need to be registered and logged in to add a task
 * Responsive Design - the site needs to be fully responsive to cover the wide variety of devices users may use to access the site
@@ -88,9 +86,6 @@ I used Mockflow to produce wireframes of how the site would look.
 # Features
 * Common Features
 The site is designed with a central layout that the HTML inserts the relevant CSS into.
-
-* Future Features
-There will be an form added where you can order food that has different delivery options.
 
 #### Preview
 <img src = 'media/images/deployment/LOGIN_SCREEN.png' alt = "Homepage of the website" width=400> </img>
@@ -108,7 +103,7 @@ There will be an form added where you can order food that has different delivery
 
 * Python
   There was no issues with python code.
-  Checked all python files while testing them individually on https://www.pythonchecker.com/
+  https://www.pythonchecker.com/
 
     #### Pythonchecker:
     * settings.py 
@@ -134,6 +129,14 @@ There will be an form added where you can order food that has different delivery
       Guido,
       Lines: 5,
       Hints: 0,
+
+    * urls.py
+      53%,
+      Solid,
+      Lines: 15,
+      Hints: 7,
+      (exception) majority hints are "Put whitespaces around operators" but they are for url paths which causes the low score.
+
 
   
 #### Notable Bugs
@@ -168,6 +171,11 @@ Have not found any yet.
 * The Cloudinary documentation was used extensively during development to setup the configuration between django and the cloudinary apis
 * The Code Institute reference material was used as a general reference for things that I had previously done during the course.
 * All other resources used are referenced where appropriate.
+
+#### Languages Used
+* Django
+* CSS
+* HTML
 
 ### Deployment
 
